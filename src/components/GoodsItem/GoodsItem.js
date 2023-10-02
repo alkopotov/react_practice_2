@@ -6,7 +6,7 @@ function GoodsItem(props){
 
   function handler(e) {
     e.stopPropagation()
-    console.log(e.target.id)
+    // console.log(e.currentTarget.id)
     deleteGood(+e.target.id)
   }
 
