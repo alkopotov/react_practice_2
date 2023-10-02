@@ -1,12 +1,12 @@
 .good_item {
-  width: 250px;
-  height: 250px;
+  width: 270px;
+  height: 270px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: bisque;
-  border: 2px ridge black;
+  background-color: rgb(243, 236, 228);
+  border: 4px ridge black;
   border-radius: 10px;
 }
 
@@ -21,4 +21,18 @@
 button {
   width: fit-content;
   font-size: 20px;
+}
+
+h2 {
+  font-size: 36px;
+  text-shadow: 2px 2px 2px pink;
+}
+h3{
+  font-size: 26px;
+  letter-spacing: 1px;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: 600;
 }

@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 body {
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
 }
 
 .wrapper {
@@ -12,7 +15,10 @@ body {
   align-items: center;
   justify-content: center;
   gap: 5px
+}
 
+h1 {
+  font-size: 40px;
 }
 .add_button {
   margin: auto;
@@ -20,4 +26,5 @@ body {
   font-size: 24px;
   padding: 10px 12px;
   border-radius: 5px;
+  box-shadow: 2px 2px 1px gray;
 }
