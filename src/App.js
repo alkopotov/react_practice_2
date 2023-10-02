@@ -14,7 +14,13 @@ function App() {
     const [goods, setGoods] = useState(data);
 
     function addNewGood() {
-      let newGoodInput = prompt('Введите наименование товара и цену', 'Название цена').split(' ')
+      let newGoodInput = ['','']
+      let input = prompt('Введите наименование товара и цену', 'Название цена')
+      if (input) {
+        newGoodInput = input.split(' ')
+      } else {
+        return
+      }
       while (isNaN(newGoodInput[1])) {
         let input = prompt('Вы ввели нечисловое значение цены. Повторите ввод', 'Название цена')
         if (input) {
