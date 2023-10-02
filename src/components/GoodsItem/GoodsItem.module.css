@@ -1,0 +1,24 @@
+.good_item {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  border: 2px ridge black;
+  border-radius: 10px;
+}
+
+.counter {
+  font-size: 24px;
+  display: flex;
+  height: fit-content;
+  gap: 10px;
+  align-items: center;
+  
+}
+button {
+  width: fit-content;
+  font-size: 20px;
+}
