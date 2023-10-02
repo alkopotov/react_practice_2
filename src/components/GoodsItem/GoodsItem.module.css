@@ -8,6 +8,7 @@
   background-color: rgb(243, 236, 228);
   border: 4px ridge black;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .counter {
@@ -23,6 +24,13 @@ button {
   font-size: 20px;
 }
 
+.up_button{
+  cursor: n-resize;
+}
+
+.down_button {
+  cursor: s-resize;
+}
 h2 {
   font-size: 36px;
   text-shadow: 2px 2px 2px pink;

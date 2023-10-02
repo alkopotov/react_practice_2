@@ -27,4 +27,5 @@ h1 {
   padding: 10px 12px;
   border-radius: 5px;
   box-shadow: 2px 2px 1px gray;
+  cursor: pointer;
 }
