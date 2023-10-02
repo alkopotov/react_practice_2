@@ -15,9 +15,9 @@ function GoodsItem(props){
       <h2>{name}</h2>
       <h3>Цена: {price}</h3>
       <div className={styles.counter}>
-        <button onClick={() => incrementCount(id)}>-</button>
+        <button onClick={() => decrementCount(id)}>-</button>
         <h4>{count}</h4>
-        <button onClick={() => decrementCount(id)}>+</button>
+        <button onClick={() => incrementCount(id)}>+</button>
       </div>
     </div>
   )
